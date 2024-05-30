@@ -1,0 +1,66 @@
+body {
+  background-color: #ffe2c3;
+}
+
+
+.navbar-text {
+  font-weight: bold;
+  color: #45C4B0;
+}
+
+
+.navbar-text:hover,
+.navbar-text:active {
+  color: #F3B562;
+}
+
+
+.card-text {
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.modal-content {
+  width: 600px;
+}
+
+.modal-user-info,
+.modal-user-name {
+  font-weight: bold;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card {
+  border: 2px solid #dfbf6a;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-group {
+  float: right;
+  margin: 10px 160px;
+
+}
+
+.add-friend-icon,
+.remove-friend-icon {
+  height: 20px;
+  float: right;
+  margin-top: 50px;
+}
+
+
+/* 將模態置中 */
+.modal-dialog {
+  position: fixed;
+  top: 30%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
